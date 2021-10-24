@@ -84,7 +84,7 @@ WiFi.begin(ssid, pass); // *在调用WiFi.begin()之前先调用WiFi.config()
 
 `WiFi.config()`方法。**调用方式与官方库不同!! 官方库定义: https://www.arduino.cc/en/Reference/WiFiConfig**
 
-WiFi.config(IPAddress ip, IPAddress gateway, IPAddress subnet)
+`WiFi.config(IPAddress ip, IPAddress gateway, IPAddress subnet)`
 
 需要传入**三个参数**，均为四字节数组，分别设置本地ip，网关和子网掩码
 
@@ -137,5 +137,5 @@ void callback(OSCMessage &msg, int addr) {
 
 ## TODO
 
-[ ] 参考课件将通用代码封装入库"esp_with_osc.h"
-[ ] 修改课件
+- [ ] 参考课件将通用代码封装入库"esp_with_osc.h"
+- [ ] 修改课件
