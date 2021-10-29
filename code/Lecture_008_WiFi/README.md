@@ -8,6 +8,10 @@
 
 ### 添加第三方开发板定义
 
+> 百度网盘：  
+> 链接：https://pan.baidu.com/s/1HldqUBsXfgJARYr3VKh4kg  
+> 提取码：uwy4  
+
 Arduino IDE 菜单 > 文件 > 首选项 > 附加开发板管理Urls
 
 添加 http://arduino.esp8266.com/stable/package_esp8266com_index.json
